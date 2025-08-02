@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+youtubeId: 6Wg1nTYCRAI
 ---
 
 # Projects
@@ -21,7 +22,7 @@ bla
 test again
 aslhdflh
 
-https://github.com/user-attachments/assets/43904edb-7247-4477-93f4-daeb2707d9ab
+{% include youtubePlayer.html id=page.youtubeId %}
 
 <!--
 ## State Estimation Algorithms
