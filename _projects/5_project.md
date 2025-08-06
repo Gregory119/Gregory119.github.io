@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Probabilistic Roadmap for Ackerman Steering Firetruck.
+title: Probabilistic Roadmap for Ackerman Steering Firetruck
 description: Wrote a PRM planning algorithm from scratch in C++ for planning fire extinguishes with an Ackerman steering firetruck.
 img: assets/img/prm.png
 importance: 4

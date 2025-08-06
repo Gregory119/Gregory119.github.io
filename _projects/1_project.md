@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep Reinforcement Learning for Set-Point Motion of Robot Arm
-description: Trained a PPO policy with Stablebaselines3 to move the end-effector of a robot arm to an arbitrary position in a custom Mujoco based Gymnasium environment.
+description: Trained a PPO policy with Stablebaselines3 to move the end-effector of a robot arm to an arbitrary position in a custom made Mujoco based Gymnasium environment.
 img: assets/img/sim-arm.png
 importance: 1
 category: work
