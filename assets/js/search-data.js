@@ -411,7 +411,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-deep-reinforcement-learning-for-set-point-motion-of-robot-arm",
           title: 'Deep Reinforcement Learning for Set-Point Motion of Robot Arm',
-          description: "Trained a PPO policy with Stablebaselines3 to move the end-effector of a robot arm to an arbitrary position in a custom Mujoco based Gymnasium environment.",
+          description: "Trained a PPO policy with Stablebaselines3 to move the end-effector of a robot arm to an arbitrary position in a custom made Mujoco based Gymnasium environment.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-motion-controllers-for-the-6-dof-ur5-robot-arm",
@@ -425,12 +425,12 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-a-search-over-forced-lattice-for-3-vehicle-kinematic-models",
-          title: 'A* search over forced lattice for 3 vehicle kinematic models.',
+          title: 'A* Search over Forced Lattice for 3 Vehicle Kinematic Models',
           description: "Implemented from scratch a planning algorithm with A* over a forced lattice with time scaling for resolution completeness. The three vehicle kinematic models this was applied to include differential drive, Ackerman steering, and a truck with trailer.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-probabilistic-roadmap-for-ackerman-steering-firetruck",
-          title: 'Probabilistic Roadmap for Ackerman Steering Firetruck.',
+          title: 'Probabilistic Roadmap for Ackerman Steering Firetruck',
           description: "Wrote a PRM planning algorithm from scratch in C++ for planning fire extinguishes with an Ackerman steering firetruck.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
