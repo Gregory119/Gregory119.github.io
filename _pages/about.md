@@ -34,6 +34,6 @@ such as kinematics and dynamics, I have gained specialized skills such as motion
 planning, optimal control, reinforcement learning, and deep learning. I am
 currently interested in roles in robotics that involve either motion planning,
 control, or AI, such as robotic manipulation, legged locomotion or autonomous
-navigation.  My final capstone in the Spring of 2026 will be training
+navigation.  My final capstone in the fall of 2026 will be training
 reinforcement learning policies for a quadruped to reorient large box shaped
 objects.
