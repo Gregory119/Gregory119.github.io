@@ -11,6 +11,15 @@
           class="card-img-top"
         %}
       {% endif %}
+      {% if project.vid %}
+        {%
+          include video.liquid
+          path=project.vid
+          class="rounded z-depth-1"
+          height=project.vid-height
+          width="100%"
+        %}
+      {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
         <p class="card-text">{{ project.description }}</p>

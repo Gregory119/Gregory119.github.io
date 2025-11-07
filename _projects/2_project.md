@@ -2,7 +2,8 @@
 layout: page
 title: Motion Controllers for the 6 DoF UR5 Robot Arm
 description: Implemented an inverse dynamics controller and PD plus feedforward controller for the UR5 in ROS2 and C++ to follow joint-space and task-space trajectories generated using MoveIt2.
-img: assets/img/ur5-control.png
+vid: https://www.youtube.com/embed/VCWa00Gez8k?playlist=VCWa00Gez8k&loop=1&autoplay=1&mute=1
+vid-height: 320
 importance: 2
 category: work
 ---

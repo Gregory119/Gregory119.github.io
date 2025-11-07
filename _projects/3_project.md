@@ -2,7 +2,8 @@
 layout: page
 title: Motion Planning for Gearbox Disassembly
 description: Planned a collision-free path to remove a gearshaft from a gearbox using RRT from OMPL in C++.
-img: assets/img/gearbox-rrt.png
+vid: https://www.youtube.com/embed/eSQyhP-H5EE?playlist=eSQyhP-H5EE&loop=1&autoplay=1&mute=1
+vid-height: 320
 importance: 3
 category: work
 ---

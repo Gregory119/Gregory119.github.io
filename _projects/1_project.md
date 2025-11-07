@@ -2,7 +2,8 @@
 layout: page
 title: Deep Reinforcement Learning for Set-Point Motion of Robot Arm
 description: Trained a PPO policy with Stablebaselines3 to move the end-effector of a robot arm to an arbitrary position in a custom made Mujoco based Gymnasium environment.
-img: assets/img/sim-arm.png
+vid: https://www.youtube.com/embed/1ozRbMUQmZw?playlist=1ozRbMUQmZw&loop=1&autoplay=1&mute=1
+vid-height: 480
 importance: 1
 category: work
 ---
@@ -11,14 +12,23 @@ Source Code: [https://github.com/Gregory119/RBE501-RL-arm-project](https://githu
 
 Skills: Python, Mujoco, Gymnasium, Stablebaselines3, PPO, Reward Shaping, Dynamics
 
-The primary goal was to train a deep reinforcement learning policy (eg. PPO) to move the end-effector of the SO-101 robot arm to a goal position (excluding orientation) as fast as possible. The secondary goal was to investigate how the trained policy is affected by changes in the underlying dynamics model. This second goal is important for sim-to-real transfer, whereby the simulated model has differences to the physical model. The dynamics were modified by scaling the mass and inertia of every link. Please see the detailed report below as well as the demonstration and presentation videos.
+The primary goal was to train a deep reinforcement learning policy (eg. PPO) to move the end-effector of the SO-101 robot arm to a goal position (excluding orientation) as fast as possible. The secondary goal was to investigate how the trained policy is affected by changes in the underlying dynamics model. This second goal was important for sim-to-real transfer, whereby the simulated model has differences to the physical model. The dynamics were modified by scaling the mass and inertia of every link. Please see the detailed report below as well as the demonstration and presentation videos.
 
+
+<div class="row justify-content-sm-center">
+{% include video.liquid path="https://www.youtube.com/embed/1ozRbMUQmZw" class="rounded z-depth-1" width="700" height="480" %}
+</div>
+
+<div class="caption"> 
+    Deployment of the train policy on the physical robot arm. The target end effector position is randomized in-between a fixed reset position.
+</div>
 
 <div class="row justify-content-sm-center">
 {% include youtubePlayer.html id='6Wg1nTYCRAI' %}
 </div>
+
 <div class="caption">
-    Example visual performance of the trained PPO policy for several trajectories without any modifications to the dynamics model. The goal was reached within 0.6 s and a final positional error of 0.007 m.
+    Example simulated performance of the trained PPO policy for several trajectories without any modifications to the dynamics model. The goal was reached within 0.6 s and a final positional error of 0.007 m.
 </div>
 
 <div class="row justify-content-sm-center">
