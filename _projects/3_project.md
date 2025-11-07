@@ -2,7 +2,7 @@
 layout: page
 title: Motion Planning for Gearbox Disassembly
 description: Planned a collision-free path to remove a gearshaft from a gearbox using RRT from OMPL in C++.
-vid: https://www.youtube.com/embed/eSQyhP-H5EE?playlist=eSQyhP-H5EE&loop=1&autoplay=1&mute=1
+vid: https://www.youtube.com/embed/DF8zlgNT0jU?playlist=DF8zlgNT0jU&loop=1&autoplay=1&mute=1
 vid-height: 320
 importance: 3
 category: work
@@ -13,7 +13,7 @@ Source Code: [https://gitlab.com/Gregory119/wpi-rbe-masters/-/tree/main/RBE-550/
 Skills: motion planning, C++, Python, numpy, vedo (for visualization), OMPL, CMake
 
 <div class="row justify-content-sm-center">
-{% include youtubePlayer.html id='eSQyhP-H5EE' %}
+{% include youtubePlayer.html id='DF8zlgNT0jU' %}
 </div>
 <div class="caption">
     Demonstration video of a solved kinematic path for the gearshaft (green) being removed from the gearbox (gray) without any collisions.
