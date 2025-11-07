@@ -28,12 +28,9 @@ latest_posts:
 ---
 
 I'm a software engineer with several years of experience, mostly in robotics
-infrastructure roles. I am now at the end of a masters in robotics program at
-Worcester Polytechnic Institute, where, after building foundational knowledge
-such as kinematics and dynamics, I have gained specialized skills such as motion
-planning, optimal control, reinforcement learning, and deep learning. I am
-currently interested in roles in robotics that involve either motion planning,
-control, or AI, such as robotic manipulation, legged locomotion or autonomous
-navigation.  My final capstone in the fall of 2026 will be training
-reinforcement learning policies for a quadruped to reorient large box shaped
-objects.
+infrastructure roles. I am now finishing off a masters in robotics at Worcester
+Polytechnic Institute, where my research focuses on reinforcement learning for
+loco-manipulation. Through my studies, I’ve developed a strong foundation in
+kinematics, dynamics, control, and state estimation. I’m seeking roles in
+robotics that involve motion planning, state estimation, reinforcement learning,
+or simulation.
